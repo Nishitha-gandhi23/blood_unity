@@ -87,7 +87,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     // Check if user exists and password matches
     if (storedUserData && storedUserData.username === username && storedUserData.password === password) {
       alert("Login successful!"); // Replace with your desired action upon successful login
-      window.location.href = "index.html"; // Redirect to home page after successful login
+      window.location.href = "dashboardUser/userHome.html"; // Redirect to home page after successful login
     } else {
       alert("Invalid username or password!"); // Replace with your desired action upon failed login
     }
